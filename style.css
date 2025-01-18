@@ -186,9 +186,6 @@ nav .button{
     line-height: 150%;
     
 }
-
-
-
 #banner .right img{
     width: 115%;
     position: relative;
@@ -196,3 +193,105 @@ nav .button{
     top: 216px;
 }
 /* -------Banner End---------- */
+/* ------management Start-------  */
+#management{
+    margin-top: 100px;
+}
+#management h2{
+    height: 120px;
+    font-family: "Space Grotesk", serif;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+#management h2 img{
+    width: 162px;
+    height: 30px;
+    top: -37px;
+    left: -62px;
+    position: relative;
+}
+#management .sidebyside{
+    display: grid;
+    grid-template-columns: repeat(3, 379px);
+    gap: 32px;
+    margin-top: 64px;
+}
+#management .sidebyside .item img{
+    width: 100%;
+    font-family: "Space Grotesk", serif;
+}
+#management .sidebyside .item h3{
+    font-family: "Space Grotesk", serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+#management .sidebyside .item p{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+    color: #757575;
+    margin-top: 16px;
+    padding-bottom: 100px;
+}
+/* ------management End-------  */
+
+/* -------Others Start------- */
+#others{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#others .sidebyside{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 117px;
+}
+#others .sidebyside .right h2{
+    width: 520px;
+    height: 134px;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -5%;
+    font-family: "Space Grotesk", serif;
+    padding-bottom: 24px;
+
+}
+#others .sidebyside .right h2 img{
+    width: 222px;
+    height: 30px;
+    top: -108px;
+    left: 282px;
+    position: relative;
+}
+#others .sidebyside .right p{
+    width: 522px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+    font-family: "Inter", serif;
+    letter-spacing: -4.5%;
+    color: #232323;
+}
+#others .right ul{
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+#others .right ul li{
+    display: grid;
+    grid-template-columns: 60px auto;
+    align-items: center;
+    margin-top: 32px;
+    border: 1px solid rgba(128, 128, 128, .16);
+    border-radius: 16px;
+    padding: 13px;
+
+}
+#others .right ul img {
+    width: 44px;
+    height: 44px;
+}
+/* -------Others End------- */
